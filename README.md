@@ -7,7 +7,50 @@ methodology.
 ## Home Page
 
 Completely from scratch, I took on the first task of designing the homepage adn eestablishing the color palette for the site as a whole. I setup sections for each part of the
-home page featuring a sliding carousel, grid content for future shows, and a short paragraph section about the company.
+home page featuring a sliding carousel, grid content for future shows, and a short paragraph section about the company. I also contributed to the styling of the navbar that 
+another teammate was working on.
+
+
+
+  <nav class="palette-navbar navbar fixed-top navbar-expand-lg navbar-light" id="menu">
+        <a class="navbar-brand palette-navbar-header" href="@Url.Action("Index", "Home")">
+            <img class="logoImg" src="~/Content/Images/cropped-logo.png" id="logo" />
+        </a>
+        <!--Drop down menu button -->
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!--Events-->
+                <li class="nav-item dropdown">
+                    <a class="nav-button dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="@Url.Action("Index", "Productions")">Productions</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="@Url.Action("Index", "Productions")">All</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Current", "Productions")">Current</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="@Url.Action("Index", "CalendarEvents")">Calendar of Events</a></li>
+                        <li><a class="dropdown-item" href="@Url.Action("Create", "RentalRequest")">Rentals</a></li>
+                    </ul>
+                </li>
+                <!--Company-->
+                <li class="nav-item dropdown">
+                    <a class="nav-button dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Company
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="@Url.Action("About", "Home")">About</a></li>
+                        <li><a class="dropdown-item" href="@Url.Action("Archive", "Home")">Archive Dashboard</a></li>
+                        <li><a class="dropdown-item" href="@Url.Action("Index", "CastMembers")">Current Members</a></li>
+                    </ul>
+                </li>
 
 ## Table Styling
 
