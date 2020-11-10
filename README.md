@@ -91,25 +91,21 @@ used bootstrap I didn't want to mess up what they established, I created classes
         color: var(--dark-color);
     }
 
-### Before
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/master/TheaterCMS/03_Before.jpg)
 
-### After
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/master/TheaterCMS/03_After.jpg)
 
 ## Cast Member page
 With Admin access, the user can add, edit, or delete profiles for cast members, content section, image section, and current production. Each of these view folders had an index, create, edit, 
 and delete page. Very similar to the table styling I edited I designed how the inputbox options looked in a more appealing way on the Create page. 
 
 ### Before
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/master/TheaterCMS/04_ContentSection_Create_Before.jpg)
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/master/TheaterCMS/04_ContentSection_Edit_Before.jpg)
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/master/TheaterCMS/04_DisplayInfo_Create_Before.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/showcase/04_ContentSection_Create_Before.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_ContentSection_Edit_Before.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_DisplayInfo_Create_Before.jpg)
 
 ### After
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/master/TheaterCMS/04_ContentSection_Create_After.jpg)
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/master/TheaterCMS/04_ContentSection_Edit_After.jpg)
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/master/TheaterCMS/04_DisplayInfo_Create_After.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_ContentSection_Create_After.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_ContentSection_Edit_After.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_DisplayInfo_Create_After.jpg)
 
 CSHTML for Create page of Content Section. Followed this code for the rest of the Create and Edit cshtml files.
 
