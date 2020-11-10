@@ -99,13 +99,13 @@ and delete page. Very similar to the table styling I edited I designed how the i
 
 ### Before
 ![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/showcase/04_ContentSection_Create_Before.jpg)
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_ContentSection_Edit_Before.jpg)
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_DisplayInfo_Create_Before.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/showcase/04_ContentSection_Edit_Before.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/showcase/04_DisplayInfo_Create_Before.jpg)
 
 ### After
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_ContentSection_Create_After.jpg)
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_ContentSection_Edit_After.jpg)
-![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/TheaterCMS/04_DisplayInfo_Create_After.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/showcase/04_ContentSection_Create_After.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/showcase/04_ContentSection_Edit_After.jpg)
+![](https://github.com/MarkMadness/TheaterCMS-asp.net/blob/main/showcase/04_DisplayInfo_Create_After.jpg)
 
 CSHTML for Create page of Content Section. Followed this code for the rest of the Create and Edit cshtml files.
 
